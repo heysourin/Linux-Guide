@@ -24,6 +24,53 @@ If you're new to Linux development, start here to learn the basics of working wi
 
 Explore essential Linux commands, file system navigation, permissions, and more.
 
+
+
+`whoami` Displays the current user's username.
+
+`pwd` Prints the current working directory (i.e., the path to the directory you're in).
+
+`ls` Lists files and directories in the current directory.
+
+`ls -a` Lists all files and directories, including hidden ones (those starting with `.`).
+
+`ls -la` Lists all files and directories in a detailed, long format, including hidden ones.
+
+`mkdir folderName` Creates a new directory with the specified name.
+
+`cd folderName` Changes the current directory to the specified folder.
+
+`cd ..` Moves up one directory level.
+
+`cd` Changes to the user's home directory.
+
+`touch fileName.txt` Creates a new empty file with the specified name.
+
+`echo "Hello world"` Prints the text "Hello world" to the terminal.
+
+`mv fileName.txt folderName2` Moves the file `fileName.txt` to `folderName2`.
+
+`nano` Opens the Nano text editor to create or edit files.
+
+`cat fileName.txt` Displays the content of the file `fileName.txt` in the terminal.
+
+`history` Displays a list of recently executed commands.
+
+`rm fileName.txt` Deletes the file `fileName.txt`.
+
+- System Management:
+
+`sudo apt install nodejs` Installs the Node.js package using the APT package manager with superuser privileges.
+
+`sudo apt update` Updates the package list and information for available software packages.
+
+**Note:** It is recommended to use `apt` commands on the terminal and `apt-get` in bash scripts. This is because `apt` is the newer version and is constantly evolving, which can sometimes break backward compatibility. Using `apt-get` commands ensures guaranteed backward compatibility and provides more functionality for script usage.
+
+`man <topic>` Displays the manual page for the specified topic, providing detailed information about commands and concepts.
+
+
+
+
 ## Package Management
 
 Learn how to manage software packages using package managers like `apt` and `yum`.
