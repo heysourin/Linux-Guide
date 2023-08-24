@@ -68,6 +68,7 @@ Explore essential Linux commands, file system navigation, permissions, and more.
 
 `man <topic>` Displays the manual page for the specified topic, providing detailed information about commands and concepts.
 
+`cp sourceFolder/fileName.txt destinationFolder` Coopies a file from one folder to another folder. (You have to be on the parent folder of both the folders)
 
 ## SSH & How to Connect to SSH
 
