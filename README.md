@@ -69,7 +69,28 @@ Explore essential Linux commands, file system navigation, permissions, and more.
 `man <topic>` Displays the manual page for the specified topic, providing detailed information about commands and concepts.
 
 
+## SSH & How to Connect to SSH
 
+Connecting to an Amazon Web Services (AWS) EC2 instance using SSH on Ubuntu is a fundamental task for managing your cloud resources. SSH provides a secure way to remotely access your EC2 instances. In this guide, we'll walk you through the process.
+
+## Prerequisites
+
+- An AWS EC2 instance with SSH access enabled.
+- Your EC2 instance's public IP address or DNS name.
+- An SSH key pair (if not already created).
+
+## Steps
+
+### 1. Open a Terminal
+
+On your Ubuntu system, open a terminal window. You can do this by pressing `Ctrl + Alt + T` or searching for "Terminal" in the applications.
+
+### 2. Navigate to the Directory with Your SSH Key
+
+If you have an SSH key pair already, navigate to the directory where your private key is stored. If you don't have an SSH key pair, you can generate one using the following command:
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 ## Package Management
 
