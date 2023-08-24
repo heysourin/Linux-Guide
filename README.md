@@ -58,6 +58,13 @@ Explore essential Linux commands, file system navigation, permissions, and more.
 
 `rm fileName.txt` Deletes the file `fileName.txt`.
 
+`cp sourceFolder/fileName.txt destinationFolder` Coopies a file from one folder to another folder. (You have to be on the parent folder of both the folders)
+
+`vi fileName.txt` Opens a text editor on terminal, where you can edit the file.
+
+`esc` & `:wq` To save the file and exit the editor. (w --> save, q --> exit)
+
+
 - System Management:
 
 `sudo apt install nodejs` Installs the Node.js package using the APT package manager with superuser privileges.
@@ -68,7 +75,6 @@ Explore essential Linux commands, file system navigation, permissions, and more.
 
 `man <topic>` Displays the manual page for the specified topic, providing detailed information about commands and concepts.
 
-`cp sourceFolder/fileName.txt destinationFolder` Coopies a file from one folder to another folder. (You have to be on the parent folder of both the folders)
 
 ## SSH & How to Connect to SSH
 
