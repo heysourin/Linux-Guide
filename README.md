@@ -91,7 +91,7 @@ If you have an SSH key pair already, navigate to the directory where your privat
 
 ```bash
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-
+```
 ## Package Management
 
 Learn how to manage software packages using package managers like `apt` and `yum`.
