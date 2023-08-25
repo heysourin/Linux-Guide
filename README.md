@@ -58,6 +58,8 @@ Explore essential Linux commands, file system navigation, permissions, and more.
 
 `rm fileName.txt` Deletes the file `fileName.txt`.
 
+`mv oldFilename.txt newFilename.txt` Rename a file.
+
 `cp sourceFolder/fileName.txt destinationFolder` Coopies a file from one folder to another folder. (You have to be on the parent folder of both the folders)
 
 `vi fileName.txt` Opens a text editor on terminal, where you can edit the file.
@@ -75,6 +77,9 @@ Explore essential Linux commands, file system navigation, permissions, and more.
 
 `man <topic>` Displays the manual page for the specified topic, providing detailed information about commands and concepts.
 
+`sudo scp -i thisismycloudoud01.pem local_file.txt ubuntu@ec2-*******...compute.amazonaws.com:/home/ubuntu/foldername` Copying a file from local to cloud. (Be careful with the folders)
+
+`sudo scp -i thisismycloudoud01.pem ubuntu@ec2-*****....compute.amazonaws.com:/home/ubuntu/folderName/cloudFile.txt .` Copying a file from cloud to local.('.' means current working directory at your local termianl)
 
 ## SSH & How to Connect to SSH
 
